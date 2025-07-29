@@ -1,0 +1,16 @@
+if SHIELD_RP1X_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "RP1X"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_RP1X_LEFT || SHIELD_RP1X_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif

@@ -1,0 +1,15 @@
+file_format: "1"
+id: rp1x
+name: RP1X
+type: shield
+url: https://github.com/iockat/zmk-config-rp1x
+requires:
+  - pro_micro
+exposes:
+  - i2c_oled
+features:
+  - keys
+  - display
+siblings:
+  - rp1x_left
+  - rp1x_right

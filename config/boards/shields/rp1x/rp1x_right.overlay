@@ -1,0 +1,5 @@
+#include "rp1x.dtsi"
+
+&default_transform {
+    col-offset = <6>;
+};

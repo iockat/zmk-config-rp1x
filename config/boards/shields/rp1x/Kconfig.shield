@@ -1,0 +1,5 @@
+config SHIELD_RP1X_LEFT
+    def_bool $(shields_list_contains,rp1x_left)
+
+config SHIELD_RP1X_RIGHT
+    def_bool $(shields_list_contains,rp1x_right)
